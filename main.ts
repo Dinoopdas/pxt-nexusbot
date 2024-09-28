@@ -1,5 +1,5 @@
 /**
-* MakeCode extension for micro:bit expansion board "Nexus:bit" and robot "NexusBot" from Taiwan Coding Education Association (TCEA)
+* MakeCode extension for micro:bit expansion board "Maker:Bit" and robot "NexusBot" from Taiwan Coding Education Association (TCEA)
 * By Alan Wang, 2019
 */
 
@@ -223,7 +223,7 @@ namespace nexusbit {
     let _rLedPin = 15
     let _gLedPin = 14
     let _bLedPin = 13
-    let _boardName = "Nexus:bit"
+    let _boardName = "Maker:Bit"
     let _initialized = false
     let _servoDefl = [90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90]
     let _servoCurrent = [90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90]
@@ -242,7 +242,7 @@ namespace nexusbit {
     export function selectBoard(type: boardType) {
         _boardType = type
         if (_boardType == boardType.nexusbit) {
-            _boardName = "Nexus:bit"
+            _boardName = "Maker:Bit"
             _servoNum = 12
             _rLedPin = 15
             _gLedPin = 14
@@ -259,7 +259,7 @@ namespace nexusbit {
 
     //% block="Board information (see serial output)" group="1. Setup" advanced=true
     export function info() {
-        serial.writeLine("Nexus:bit/Thunder:bit/NexusBot are products of Taiwan Coding Education Association (TCEA) (www.beyond-coding.org.tw)")
+        serial.writeLine("Maker:Bit/Thunder:bit/NexusBot are products of Taiwan Coding Education Association (TCEA) (www.beyond-coding.org.tw)")
         serial.writeLine("Extension by Alan Wang, 2019. (github.com/alankrantas/pxt-Nexusbit)")
         serial.writeLine("Current selected board: " + _boardName)
         serial.writeLine("PCA9685 servo num: " + _servoNum)
