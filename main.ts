@@ -638,7 +638,7 @@ namespace nexusbit {
 
 }
 
-//% weight=200 color=#e8446d icon="\uf113" block="NexusBot"
+//% weight=200 color=#e8446d icon="\uf113" block="Makerbit"
 namespace nexusbot {
 
     let isInAction = false
