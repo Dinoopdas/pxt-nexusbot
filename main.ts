@@ -4,7 +4,7 @@
 */
 
 enum boardType {
-    //% block="Nexus:bit"
+    //% block="MakerBit"
     nexusbit,
     //% block="Thunder:bit V2"
     thunderbit_v2,
